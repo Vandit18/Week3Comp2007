@@ -12,6 +12,7 @@ namespace Lesson3.User_Control
         protected void Page_Load(object sender, EventArgs e)
         {
             JumbotronH1.InnerText = "Welcome!!";
+            //JumbotronH2.InnerText = "Contact Me!!";
         }
     }
 }
