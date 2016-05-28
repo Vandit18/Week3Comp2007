@@ -13,7 +13,12 @@ namespace Lesson3
         {
             
         }
+        /**
+         This method will send page back to main page
 
+            @mehod : submitButton_Click
+            @return {void}
+         **/
         protected void SubmitButton_Click(object sender, EventArgs e)
         {
             Response.Redirect("Default.aspx");
